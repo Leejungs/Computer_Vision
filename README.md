@@ -5,6 +5,6 @@
 [QA반] 20231584 이정수 / 20231596 최소원 / 20232511 김다현
 
 ### 3. 과제 목표
-<img src="C:\Users\leejungsu\Desktop\메인페이지.png" width="600" height="800"/>
+<img src="C:\Users\leejungsu\Desktop\2학년2학기\컴퓨터비전\과제2 이미지\메인페이지.png" height="800"/>
 
 ### 4. 코드
