@@ -1,4 +1,4 @@
-### -컴퓨터비전 객체인식 과제-
+# -컴퓨터비전 객체인식 과제-
 참고 깃허브: https://github.com/JangMinSeong/Diet101
 
 ##  1. 개요
