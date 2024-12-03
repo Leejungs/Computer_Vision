@@ -7,4 +7,4 @@
 ### 3. 과제 목표
 
 
-<img src="C:\Users\leejungsu\Desktop\KakaoTalk_20241128_115337498.png" />
+<img src="C:\Users\leejungsu\Desktop\KakaoTalk_20241128_115337498.png" width="200" height="400"/>
