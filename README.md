@@ -1,5 +1,5 @@
 # -실시간으로 공공장소 빈 좌석 확인하기-
-<img src="Images_detection_people.png" width="600" height="400"/>
+<img src="Image_detection_people.png" width="600" height="400"/>
 
 ## 프로젝트 개요
 ### 개발 목적
