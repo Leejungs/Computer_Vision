@@ -82,7 +82,7 @@ annotated_image = image.copy()
 for chair in chair_boxes:
     color = (0, 255, 0)  # 기본 색상: 초록 (빈 의자)
     if chair in occupied_chairs:
-        color = (255, 0, 0)  # 점유된 의자: 빨강
+        color = (255, 0, 0)  # 점유된 의자: 파랑
     cv2.rectangle(annotated_image, (int(chair[0]), int(chair[1])), (int(chair[2]), int(chair[3])), color, 2)  # 의자
 
 for person in people_boxes:
