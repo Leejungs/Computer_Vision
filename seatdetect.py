@@ -22,25 +22,16 @@ chair_boxes = []
 for result in results:
     for box in result.boxes:
         label = model.names[int(box.cls[0])]
-        if box.conf[0] > 0.3:  # 신뢰도 기준 적용
+        if box.conf[0] > 0.4:  # 신뢰도 기준 적용, 적절한 기준을 찾는 게 중요
             if label == "person":
                 people_boxes.append(box.xyxy[0].tolist())
             elif label == "chair":
                 chair_boxes.append(box.xyxy[0].tolist())
 
-# ------------------------- 점유된 의자 수 계산 -------------------------
-occupied_seats = 0
-for chair in chair_boxes:
-    for person in people_boxes:
-        # 사람과 의자 간 관계 판단: 바운딩 박스 전체 비교
-        if (person[0] < chair[2] and person[2] > chair[0] and  # 좌우 겹침
-                person[1] < chair[3] and person[3] > chair[1]):  # 상하 겹침
-            occupied_seats += 1
-            break  # 이미 점유된 의자는 중복 계산 방지
-
 # ------------------------- 결과 계산 -------------------------
-total_chairs = len(chair_boxes)
-available_chairs = total_chairs - occupied_seats
+total_chairs = len(chair_boxes)  # 전체 의자 수
+occupied_seats = len(people_boxes)  # 탐지된 사람 수를 점유된 좌석으로 가정
+available_chairs = total_chairs - occupied_seats  # 잔여 의자 수
 
 # ------------------------- 결과 출력 -------------------------
 print("\n좌석 감지 결과:")
