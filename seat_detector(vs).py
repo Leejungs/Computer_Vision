@@ -4,7 +4,7 @@ import math
 
 # ------------------------- YOLO 모델 설정 -------------------------
 model_path = "models/yolo11n.pt"
-image_path = "C:/Users/choil/OneDrive/Desktop/cv_project/data/cafe.jpg"
+image_path = "data/cafe.jpg"
 
 model = YOLO(model_path)
 
