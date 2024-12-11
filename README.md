@@ -63,8 +63,9 @@ project/
 
 ## 시뮬레이션 결과
 ### 시연 이미지
-<img src="outfolder/annotated_test8.jpeg" width="600" height="400"/>
-<img src="outfolder/annotated_cafe.jpg" width="600" height="400"/>
+![annotated_test8](https://github.com/user-attachments/assets/0f98df34-098e-4075-978d-37d68507cc67)
+![annotated_cafe](https://github.com/user-attachments/assets/e981e858-5e28-4ed9-b488-8f91bfc694c1)
+
 
 
 ---
