@@ -1,3 +1,4 @@
+# 김다현, 이정수, 최소원, 윤채영
 # 실시간으로 공공장소 빈 좌석 확인하기
 <img src="Image_detection_people.png" width="600" height="400"/>
 
